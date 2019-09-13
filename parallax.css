@@ -1,0 +1,236 @@
+* {
+    color: #ffffff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: YuMincho,
+        'Yu Mincho',
+        serif;
+
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.0;
+    font-family: YuMincho,
+        'Yu Mincho',
+        serif;
+}
+
+li {
+    font-size: 1.6rem;
+}
+
+.container,
+body,
+html {
+    height: 100%;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+.container {
+    padding: 20px 0;
+    background-color: #333;
+    margin-top: 6rem;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+section {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    padding: 15px;
+}
+
+.nav-body ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-body ul li {
+    padding: 20px 5px;
+    margin: 0 10px;
+}
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 80%;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 360px;
+    height: 360px;
+}
+
+.profile-info {
+    display: flex;
+}
+
+.profile-name,
+.profile-job {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    height: auto;
+}
+
+.profile-job {
+    font-size: 2.5rem;
+    margin-top: -15px;
+
+
+}
+
+.profile-name {
+    font-size: 4rem;
+}
+
+.name {
+    background-color: #ffffff;
+    color: #333;
+    padding: 1.4rem;
+    font-weight: bold;
+    margin: -15px 0;
+}
+
+.age {
+    writing-mode: horizontal-tb;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.scene {
+    position: relative;
+    font-family: YuMincho,
+        'Yu Mincho',
+        serif;
+}
+
+.scene .center {
+    width: 100%;
+    text-align: center;
+}
+
+.contents {
+    padding: 2rem;
+}
+
+.contents h1 {
+    /* font-size: 2.5rem; */
+    margin-bottom: 2rem;
+
+}
+
+
+.container:nth-child(2n) .flexbox {
+    flex-flow: row-reverse;
+}
+
+.contents-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.portfolio-container {
+    height: auto;
+}
+
+.portfolio {
+    justify-content: space-between;
+}
+
+.skill-list li {
+    width: 20%;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.portfolio li {
+    width: 50%;
+    text-align: center;
+}
+
+.hero-container .contents {
+    padding: 0
+}
+
+.hero-body {
+    width: 960PX;
+    margin: 40px auto 120px auto;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-container {
+    height: auto;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.comments {
+    display: flex;
+    list-style: none;
+}
+
+.user_item span,
+.comments p {
+    color: #333;
+}
+
+.user_item span {
+    font-size: 1.4rem;
+}
+
+.comments p {
+    font-size: 1.2rem;
+}
+
+.comments li {
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.comments li div {
+    min-height: 90px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 2rem;
+}
